@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Prov3Uppgift4.jnlp">
+  <information>
+    <title>Prov3Uppgift4</title>
+    <vendor>aa92284</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Prov3Uppgift4.jar" size="4597" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Prov3Uppgift4" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="prov3uppgift4.Prov3Uppgift4"  name="Prov3Uppgift4" />
+  <update check="always"/>
+</jnlp>

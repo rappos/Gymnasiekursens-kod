@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="InfogaSortGrafiskt.jnlp">
+  <information>
+    <title>InfogaSortGrafiskt</title>
+    <vendor>aa92284</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="InfogaSortGrafiskt.jar" size="3469" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="InfogaSortGrafiskt" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="infogasortgrafiskt.InfogaSortGrafiskt"  name="InfogaSortGrafiskt" />
+  <update check="always"/>
+</jnlp>
